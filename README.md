@@ -1,15 +1,17 @@
-# emailrep.io Alpha API
+# emailrep.io Alpha Risk API
 
 ## Summary:
 
 EmailRep is a system of crawlers, scanners and enrichment services that collects data on email addresses, domains, and internet personas. 
 
-EmailRep uses hundreds of data points from social media profiles, professional networking sites, dark web credential leaks, data breaches, phishing kits, phishing emails, spam lists, open mail relays, domain age and reputation, deliverability, and more to predict and answer these types of questions: 
+EmailRep uses hundreds of data points from social media profiles, professional networking sites, dark web credential leaks, data breaches, phishing kits, phishing emails, spam lists, open mail relays, domain age and reputation, deliverability, and more to predict the risk of an email address and answer these types of questions: 
 * Is this email risky?
 * Is this a throwaway account?
 * Is there potential for this signup to commit fraud or abuse?
 * What kind of online presence does this email have?
 * Is this a trustworthy sender?
+
+Detailed documentation and code examples can be found [here](https://emailrep.io/docs).
 
 ## URL: 
 
@@ -135,7 +137,7 @@ Optional Parameters:
 
 * description - Additional information and context
 * timestamp - When the activity occurred. Defaults to now()
-* expires - Number of h ours the email should be blacklisted. Defaults to no expiration unless account_takeover tag is specified, in which case the default is 14 days
+* expires - Number of hours the email should be blacklisted. Defaults to no expiration unless account_takeover tag is specified, in which case the default is 14 days
 
 Example:
 ```
