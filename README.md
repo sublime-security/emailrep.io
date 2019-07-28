@@ -23,13 +23,7 @@ For authentication info, code samples and the `Report` API, see our [detailed do
 
 ## Simple Usage
 
-### /[email]
-Method: `GET`
-Description: query an email
-
-Required Parameters:
-
-* email - Email address to query
+### `GET` /[email] - query an email
 
 Example:
 ```
