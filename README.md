@@ -1,6 +1,6 @@
 # emailrep.io Alpha Risk API
 
-## Summary:
+## Summary
 
 EmailRep is a system of crawlers, scanners and enrichment services that collects data on email addresses, domains, and internet personas. 
 
@@ -11,33 +11,25 @@ EmailRep uses hundreds of data points from social media profiles, professional n
 * What kind of online presence does this email have?
 * Is this a trustworthy sender?
 
-Detailed documentation and code examples can be found [here](https://emailrep.io/docs).
-
-## URL: 
+## URL
 
 ```
 https://emailrep.io
 ```
 
-## Authentication:
+## Detailed Usage
 
-"key: [key]" header
+For authentication info, code samples and the `Report` API, see our [detailed documentation](https://emailrep.io/docs).
 
-## Endpoints:
-
-* GET /[email] - query an email
-* POST /report - report an email
+## Simple Usage
 
 ### /[email]
 Method: `GET`
+Description: query an email
 
 Required Parameters:
 
 * email - Email address to query
-
-Optional Parameters:
-
-* key - A valid API key enables you to have custom rate limits
 
 Example:
 ```
@@ -85,7 +77,7 @@ $ curl -s emailrep.io/bill@microsoft.com
 }
 ```
 
-## Response Details:
+## Response Details
 
 * `reputation`: high/medium/low/none
 * `suspicious`: true/false (our best assessment based off all the information we have)
@@ -112,40 +104,6 @@ $ curl -s emailrep.io/bill@microsoft.com
 * `spf_strict`: sufficiently strict SPF record to prevent spoofing
 * `dmarc_enforced`: DMARC is configured correctly and enforced
 * `profiles`: online profiles used by the email
-
-### /report
-Method: `POST`
-
-Required Parameters:
-
-* key - A valid API key is required
-* email - The email address to report
-* tags - The tags to be applied
-  * `spam` - Unsolicited spam or spammy behavior (e.g. forum submissions)
-  * `malicious` - Malicious intent of any kind. Superset of the below tags
-  * `credential_phishing` - Credential phishing, brand impersonation
-  * `bec` - Business email compromise, whaling, contact impersonation/display name spoofing
-  * `brand_impersonation` - Impersonating a well-known brand (e.g. Paypal, Microsoft, Google, etc.)
-  * `maldoc` - Malicious documents, either directly (attachemnts) or indirectly (free file hosting sites)
-  * `romance_scam` - Romance scam, sextortion
-  * `account_takeover` - Legitimate email has been taken over by a malicious actor
-  * `threat_actor` - Threat actor/owner of phishing kit
-  * `browser_exploit` - The hosted website serves an exploit
-  * `generic_phishing` - Generic phishing, should only be used if others don't apply or a more specific determination can't be made or would be too difficult
-
-Optional Parameters:
-
-* description - Additional information and context
-* timestamp - When the activity occurred. Defaults to now()
-* expires - Number of hours the email should be blacklisted. Defaults to no expiration unless account_takeover tag is specified, in which case the default is 14 days
-
-Example:
-```
-curl -s 'https://emailrep.io/report' -H 'key: [api_key]' -d '{"email": "foo@bar.com", "tags": ["malicious", "credential_phishing"], "description": "Phishing email sent to accounting dept", "timestamp": 1562171178, "expires": 24 }'
-{
-  "status": "success"
-}
-```
 
 ## Use cases
 
