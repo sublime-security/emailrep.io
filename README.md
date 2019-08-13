@@ -1,10 +1,10 @@
 # emailrep.io Alpha Risk API
-
+[![Join the chat at https://gitter.im/Odonno/Modern-Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/sublime-security/emailrep.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ## Summary
 
-EmailRep is a system of crawlers, scanners and enrichment services that collects data on email addresses, domains, and internet personas. 
+EmailRep is a system of crawlers, scanners and enrichment services that collects data on email addresses, domains, and internet personas.
 
-EmailRep uses hundreds of data points from social media profiles, professional networking sites, dark web credential leaks, data breaches, phishing kits, phishing emails, spam lists, open mail relays, domain age and reputation, deliverability, and more to predict the risk of an email address and answer these types of questions: 
+EmailRep uses hundreds of data points from social media profiles, professional networking sites, dark web credential leaks, data breaches, phishing kits, phishing emails, spam lists, open mail relays, domain age and reputation, deliverability, and more to predict the risk of an email address and answer these types of questions:
 * Is this email risky?
 * Is this a throwaway account?
 * Is there potential for this signup to commit fraud or abuse?
@@ -81,7 +81,7 @@ $ curl -s emailrep.io/bill@microsoft.com
 * `malicious_activity_recent`: malicious behavior in the last 90 days (e.g. in the case of temporal account takeovers)
 * `credentials_leaked`: credentials were leaked at some point in time (e.g. a data breach, pastebin, dark web, etc.)
 * `credentials_leaked_recent`: credentials were leaked in the last 90 days
-* `data_breach`: the email was in a data breach at some point in time 
+* `data_breach`: the email was in a data breach at some point in time
 * `last_seen`: the last date the email was observed in a breach, credential leak, or exhibiting malicious or spammy behavior ('never' if never seen)
 * `domain_exists`: valid domain
 * `domain_reputation`: high/medium/low/n/a (n/a if the domain is a free_provider, disposable, or doesn't exist)
