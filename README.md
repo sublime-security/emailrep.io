@@ -74,14 +74,14 @@ $ curl -s emailrep.io/bill@microsoft.com
 ## Response Details
 
 * `reputation`: high/medium/low/none
-* `suspicious`: true/false (our best assessment based off all the information we have)
+* `suspicious`: whether the email address should be treated as suspicious or risky
 * `references`: total number of positive and negative sources of reputation. note that these may not all be direct references to the email address, but can include reputation sources for the domain or other related information
 * `blacklisted`: the email is believed to be malicious or spammy
 * `malicious_activity`: the email has exhibited malicious behavior (e.g. phishing or fraud)
 * `malicious_activity_recent`: malicious behavior in the last 90 days (e.g. in the case of temporal account takeovers)
-* `credentials_leaked`: credentials were leaked at some point in time (e.g. a data breach (source: haveibeenpwned.com), pastebin, dark web, etc.)
+* `credentials_leaked`: credentials were leaked at some point in time (e.g. a data breach, pastebin, dark web, etc.)
 * `credentials_leaked_recent`: credentials were leaked in the last 90 days
-* `data_breach`: the email was in a data breach at some point in time (source: haveibeenpwned.com)
+* `data_breach`: the email was in a data breach at some point in time 
 * `last_seen`: the last date the email was observed in a breach, credential leak, or exhibiting malicious or spammy behavior ('never' if never seen)
 * `domain_exists`: valid domain
 * `domain_reputation`: high/medium/low/n/a (n/a if the domain is a free_provider, disposable, or doesn't exist)
