@@ -1,5 +1,5 @@
 # emailrep.io Alpha Risk API
-[![Join the chat at https://gitter.im/Odonno/Modern-Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/sublime-security/emailrep.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## Summary
 
 EmailRep is a system of crawlers, scanners and enrichment services that collects data on email addresses, domains, and internet personas.
