@@ -32,7 +32,7 @@ $ curl -s emailrep.io/bill@microsoft.com
   "email": "bill@microsoft.com",
   "reputation": "high",
   "suspicious": false,
-  "references": 61,
+  "references": 79,
   "details": {
     "blacklisted": false,
     "malicious_activity": false,
@@ -41,11 +41,11 @@ $ curl -s emailrep.io/bill@microsoft.com
     "credentials_leaked_recent": false,
     "data_breach": true,
     "first_seen": "07/01/2008",
-    "last_seen": "03/01/2015",
+    "last_seen": "05/24/2019",
     "domain_exists": true,
     "domain_reputation": "high",
     "new_domain": false,
-    "days_since_domain_creation": 10232,
+    "days_since_domain_creation": 10341,
     "suspicious_tld": false,
     "spam": false,
     "free_provider": false,
@@ -57,16 +57,14 @@ $ curl -s emailrep.io/bill@microsoft.com
     "spf_strict": true,
     "dmarc_enforced": true,
     "profiles": [
-      "twitter",
-      "linkedin",
-      "instagram",
-      "spotify",
-      "vimeo",
-      "angellist",
-      "tumblr",
-      "flickr",
       "myspace",
-      "pinterest"
+      "spotify",
+      "twitter",
+      "pinterest",
+      "flickr",
+      "linkedin",
+      "vimeo",
+      "angellist"
     ]
   }
 }
