@@ -40,6 +40,7 @@ $ curl -s emailrep.io/bill@microsoft.com
     "credentials_leaked": true,
     "credentials_leaked_recent": false,
     "data_breach": true,
+    "first_seen": "07/01/2008",
     "last_seen": "03/01/2015",
     "domain_exists": true,
     "domain_reputation": "high",
@@ -82,6 +83,7 @@ $ curl -s emailrep.io/bill@microsoft.com
 * `credentials_leaked`: credentials were leaked at some point in time (e.g. a data breach, pastebin, dark web, etc.)
 * `credentials_leaked_recent`: credentials were leaked in the last 90 days
 * `data_breach`: the email was in a data breach at some point in time
+* `first_seen`: the first date the email was observed in a breach, credential leak, or exhibiting malicious or spammy behavior ('never' if never seen)
 * `last_seen`: the last date the email was observed in a breach, credential leak, or exhibiting malicious or spammy behavior ('never' if never seen)
 * `domain_exists`: valid domain
 * `domain_reputation`: high/medium/low/n/a (n/a if the domain is a free_provider, disposable, or doesn't exist)
