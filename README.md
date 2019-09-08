@@ -17,6 +17,10 @@ EmailRep uses hundreds of data points from social media profiles, professional n
 https://emailrep.io
 ```
 
+## Libraries
+* [Python](https://github.com/sublime-security/emailrep.io-python)
+* [PowerShell](https://github.com/arnydo/PSEmailRep)
+
 ## Detailed Usage
 
 For authentication info, code samples and the `Report` API, see our [detailed documentation](https://emailrep.io/docs).
