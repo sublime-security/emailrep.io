@@ -20,6 +20,7 @@ https://emailrep.io
 ## Libraries
 * [Python](https://github.com/sublime-security/emailrep.io-python)
 * [PowerShell](https://github.com/arnydo/PSEmailRep)
+* [R](https://git.rud.is/hrbrmstr/emailrep)
 
 ## Detailed Usage
 
