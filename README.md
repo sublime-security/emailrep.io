@@ -4,7 +4,7 @@
 
 EmailRep is a system of crawlers, scanners and enrichment services that collects data on email addresses, domains, and internet personas.
 
-EmailRep uses hundreds of data points from social media profiles, professional networking sites, dark web credential leaks, data breaches, phishing kits, phishing emails, spam lists, open mail relays, domain age and reputation, deliverability, and more to predict the risk of an email address and answer these types of questions:
+EmailRep uses hundreds of data points from social media profiles, professional networking sites, dark web credential leaks, data breaches, phishing kits, phishing emails, spam lists, open mail relays, spam traps, domain age and reputation, deliverability, and more to predict the risk of an email address and answer these types of questions:
 * Is this email risky?
 * Is this a throwaway account?
 * Is there potential for this signup to commit fraud or abuse?
@@ -21,6 +21,7 @@ https://emailrep.io
 * [Python](https://github.com/sublime-security/emailrep.io-python)
 * [PowerShell](https://github.com/arnydo/PSEmailRep)
 * [R](https://git.rud.is/hrbrmstr/emailrep)
+* [.NET](https://github.com/WestDiscGolf/EmailRep.NET)
 
 ## Detailed Usage
 
