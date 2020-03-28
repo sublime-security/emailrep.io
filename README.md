@@ -25,7 +25,7 @@ https://emailrep.io
 
 ## Detailed Usage
 
-For authentication info, code samples and the `Report` API, see our [detailed documentation](https://emailrep.io/docs).
+For authentication info, code samples, and reporting malicious email addresses see our [detailed documentation](https://docs.emailrep.io).
 
 ## Simple Usage
 
