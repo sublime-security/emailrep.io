@@ -22,6 +22,7 @@ https://emailrep.io
 * [PowerShell](https://github.com/arnydo/PSEmailRep)
 * [R](https://git.rud.is/hrbrmstr/emailrep)
 * [.NET](https://github.com/WestDiscGolf/EmailRep.NET)
+* [Go](https://github.com/kaiiyer/emailrep)
 
 ## Detailed Usage
 
