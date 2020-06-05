@@ -23,6 +23,7 @@ https://emailrep.io
 * [R](https://git.rud.is/hrbrmstr/emailrep)
 * [.NET](https://github.com/WestDiscGolf/EmailRep.NET)
 * [Go](https://github.com/kaiiyer/emailrep)
+* [Go](https://github.com/vertoforce/go-emailrep)
 
 ## Detailed Usage
 
