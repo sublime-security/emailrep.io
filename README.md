@@ -1,6 +1,10 @@
-# emailrep.io Alpha Risk API
+ <a href="https://sublimesecurity.com"><img src="https://user-images.githubusercontent.com/11003450/115128085-5805da00-9fa9-11eb-8c7a-dc8b708053ee.png" width="75px" alt="Sublime Logo" /></a>
 
-## Summary
+EmailRep Alpha Risk API
+==========
+by [Sublime Security](https://sublimesecurity.com)
+
+## Overview
 
 EmailRep is a system of crawlers, scanners and enrichment services that collects data on email addresses, domains, and internet personas.
 
